@@ -658,3 +658,81 @@ h3 {
     color: #bbb;
 }
 
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .nav-links {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .icons {
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .text-container {
+      width: 80%;
+      margin-left: 10%;
+      transform: translateY(200px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-container {
+      width: 90%;
+      margin-left: 5%;
+      height: auto;
+    }
+  }
+  @media (max-width: 1024px) {
+    .product-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 768px) {
+    .inspiration {
+      flex-direction: column;
+      padding: 30px;
+    }
+  
+    .inspiration-text {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .carousel {
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-logo, .footer-links, .footer-help, .footer-newsletter {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  
